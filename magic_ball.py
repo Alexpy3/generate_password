@@ -25,3 +25,4 @@ while True:
     if repair == 'нет':
         print('Всего доброго', name_defolt, 'скоро увидимся...')
         break
+# конец
