@@ -165,4 +165,18 @@
 # print(total_sum, total, total_pro, a, digit, Sum_digit, sep='\n')
 
 
+# 13.Вторая цифра
+# Дано натуральное число n,(n > 9).Напишите программу, которая определяет его вторую (с начала) цифру.
+#
+# n = int(input())
+# second = n % 10
+# while n > 9:
+#     num = n % 10
+#     n = n // 10
+# second = num
+# print(second)
+
+
+
+
 
