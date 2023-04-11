@@ -619,6 +619,42 @@
 # print(s[:a] + s[b:a:-1] + s[b:])
 
 
-# 55.
+# 55. Звездный треугольник. Напишите функцию draw_triangle(fill, base), которая принимает два параметра:
+# fill – символ заполнитель; base – величина основания равнобедренного треугольника;
+#
+# def draw_triangle(fill, base):
+#     for i in range(1, base + 1):
+#         for j in range(i):
+#             if i + j <= base:
+#                 print(fill, end='')
+#         print()
+#
+#
+# fill = input()
+# base = int(input())
+#
+# draw_triangle(fill, base)
 
 
+# 56. Напишите функцию print_fio(name, surname, patronymic), которая принимает три параметра:name – имя человека;surname – фамилия человека;patronymic – отчество человека;
+# а затем выводит на печать ФИО человека. все три буквы в ФИО должны иметь верхний регистр.
+#
+# def print_fio(name, surname, patronymic):
+#     print(surname[0], name[0], patronymic[0], sep='')
+#
+#
+# name, surname, patronymic = input().upper(), input().upper(), input().upper()
+#
+# print_fio(name, surname, patronymic)
+
+
+# 57.
+
+def print_digit_sum(num):
+    print(sum(int(i) for i in num))
+
+# считываем данные
+n = input()
+
+# вызываем функцию
+print_digit_sum(n)
