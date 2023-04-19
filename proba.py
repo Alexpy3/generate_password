@@ -648,13 +648,40 @@
 # print_fio(name, surname, patronymic)
 
 
-# 57.
+# 57. Сумма цифр. Напишите функцию print_digit_sum(), которая принимает одно целое число num и выводит на печать сумму его цифр.
+#
+# def print_digit_sum(num):
+#     print(sum(int(i) for i in num))
+#
+#
+# n = input()
+#
+# print_digit_sum(n)
 
-def print_digit_sum(num):
-    print(sum(int(i) for i in num))
 
-# считываем данные
-n = input()
+# 58. Делители 1. Напишите функцию get_factors(num), принимающую в качестве аргумента натуральное число и возвращающую список всех делителей данного числа.
+#
+# def get_factors(num):
+#     return [i for i in range(1, num + 1) if num % i == 0]
+#
+#
+# n = int(input())
+# print(get_factors(n))
 
-# вызываем функцию
-print_digit_sum(n)
+
+# 59. Делители 2 Напишите функцию number_of_factors(num), принимающую в качестве аргумента число и возвращающую количество делителей данного числа.
+#
+# def get_factors(num):
+#     return [i for i in range(1, num + 1) if num % i == 0]
+#
+#
+# def number_of_factors(num):
+#     return len(get_factors(num))
+#
+#
+# n = int(input())
+# print(number_of_factors(n))
+
+
+# 60.
+
